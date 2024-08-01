@@ -1,9 +1,11 @@
-function Hello(props) {
+function Hello({ name, message }) {
   return (
     <>
-      <h1>{props.message} {props.name}!</h1>
+      <h1>
+        {message} {name}!
+      </h1>
     </>
   );
 }
 
-export default Hello; 
+export default Hello;
