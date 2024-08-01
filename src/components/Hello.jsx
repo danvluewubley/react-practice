@@ -1,8 +1,8 @@
-function Hello({ name, message }) {
+function Hello({person}) {
   return (
     <>
       <h1>
-        {message} {name}!
+        {person.message} {person.name} {person.seatNumbers}!
       </h1>
     </>
   );
